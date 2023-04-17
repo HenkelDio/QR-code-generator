@@ -20,7 +20,7 @@ export default function Card() {
 
   return (
     <Container>
-      <label htmlFor="url">Digite a URL do site abaixo</label>
+      <p>Digite a URL do site abaixo</p>
       <input
         name="url"
         onChange={(e) => setUrl(e.target.value)}
