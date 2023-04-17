@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Inter', sans-serif;
 
   display: flex;
   flex-direction: column;
 
-  width: 400px;
-  height: 550px;
-  margin: 100px auto;
+  min-height: 550px;
+  margin: 50px auto;
   padding: 20px;
 
-  box-shadow: 2px 2px 10px 2px #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 
   background-color: #fff;
@@ -20,19 +18,19 @@ export const Container = styled.div`
   input {
     border: 2px solid #ccc;
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     outline: none;
     padding-left: 10px;
     font-size: 1.2rem;
-
+    font-family: 'Inter', sans-serif;
     margin-bottom: 20px;
   }
 
-  label {
-    text-align: left;
+  p {
     opacity: 0.8;
-    margin-bottom: 5px;
-
+    margin-bottom:10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
   }
 
   button {
@@ -40,9 +38,11 @@ export const Container = styled.div`
     color: white;
     font-weight: bold;
     border: none;
-    height: 40px;
+    height: 60px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
   }
 
 `;

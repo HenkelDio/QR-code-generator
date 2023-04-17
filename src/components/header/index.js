@@ -1,15 +1,16 @@
+import Button from '../Button';
 import { Container } from './style';
 
-export default function Header({ onHandleTheme }) {
+export default function Header({ onHandleTheme, currentTheme }) {
   return (
     <Container>
       <h1>QR CODE GENERATOR</h1>
-      <button
+      <Button
         type="button"
         onClick={onHandleTheme}
       >
-        Mudar tema
-      </button>
+        {currentTheme === 'dark' ? '🌞' : '🌚'}
+      </Button>
     </Container>
   );
 }

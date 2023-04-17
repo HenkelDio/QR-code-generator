@@ -19,6 +19,7 @@ function App() {
       <GlobalStyled />
       <Layout
         onHandleTheme={handleTheme}
+        currentTheme={theme}
       />
     </ThemeProvider>
   );
